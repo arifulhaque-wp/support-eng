@@ -1,0 +1,46 @@
+/* Custom Font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+/* Reset Css */
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.2;
+    color: #1e1e1e;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+}
+a, a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    column-gap: 10px;
+}
+
+/* Custom Css */
+.applicationForm h2 {
+    padding-bottom: 20px;
+    color: #0029e0;
+}
+.applicationForm table{
+    padding: 10px;
+}
+.applicationForm tr{
+    display: block;
+    margin-bottom: 10px;
+}
