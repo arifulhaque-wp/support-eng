@@ -24,6 +24,9 @@ a, a:hover{
 ul{
     list-style: none;
 }
+img{
+    width: 100%;
+}
 .container{
     width: 1200px;
     margin: 0 auto;
@@ -33,6 +36,9 @@ ul{
 }
 
 /* Custom Css */
+.random_content img{
+    padding-top: 20px;
+}
 .applicationForm h2 {
     padding-bottom: 20px;
     color: #0029e0;
@@ -43,4 +49,20 @@ ul{
 .applicationForm tr{
     display: block;
     margin-bottom: 10px;
+}
+.applicationForm input[type="submit"]{
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px 35px;
+    transition: all 0.3s;
+}
+.applicationForm input[type="submit"]:hover{
+    background-color: #333;
+    color: #fff;
 }
